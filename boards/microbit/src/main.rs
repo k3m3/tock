@@ -2,10 +2,29 @@
 //! This is an nRF51822 Soc (a Cortex M0 core with a BLE transceiver)
 //!
 //! ### Pin configuration
-
-//!
+//! ## Edge connector
+//! * 0 -> (pin 3)
+//! * 1 -> (pin 2)
+//! * 2 -> (pin 1)
+//! * 3 -> (pin 4)
+//! * 4 -> BUTTON0 (pin 5)
+//! * 5 -> (pin 17)
+//! * 6 -> (pin 12)
+//! * 7 -> (pin 11)
+//! * 8 -> (pin 18)
+//! * 9 -> (pin 10)
+//! * 10 -> (pin 6)
+//! * 11 -> BUTTON1 (pin 26)
+//! * 12 -> (pin 20)
+//! * 13 -> SCK (pin 23)
+//! * 14 -> MISO (pin 22)
+//! * 15 -> MOSI (pin 21)
+//! * 16 -> (pin 16)
+//! * 19 -> SCL (pin 0)
+//! * 20 -> SDA (pin 30)
+//! 
 //! ### Authors
-//! * Michael E. Craggs
+//! * Michael E. Craggs <m.e.craggs@gmail.com>
 //! * Date: December 07, 2017
 
 #![no_std]
