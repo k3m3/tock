@@ -105,7 +105,7 @@ pub unsafe fn reset_handler() {
     }
 
     let gpio_pins = static_init!(
-        [&'static nrf5x::gpio::GPIOPin; 30],
+        [&'static nrf5x::gpio::GPIOPin; 17],
         [
             &nrf5x::gpio::PORT[1],
             &nrf5x::gpio::PORT[2],
@@ -124,21 +124,8 @@ pub unsafe fn reset_handler() {
             &nrf5x::gpio::PORT[15],
             &nrf5x::gpio::PORT[16],
             &nrf5x::gpio::PORT[17],
-            &nrf5x::gpio::PORT[18],
-            &nrf5x::gpio::PORT[19],
-            &nrf5x::gpio::PORT[20],
-            &nrf5x::gpio::PORT[21],
-            &nrf5x::gpio::PORT[22],
-            &nrf5x::gpio::PORT[23],
-            &nrf5x::gpio::PORT[24],
-            &nrf5x::gpio::PORT[25],
-            &nrf5x::gpio::PORT[26],
-            &nrf5x::gpio::PORT[27],
-            &nrf5x::gpio::PORT[28],
-            &nrf5x::gpio::PORT[29],
-            &nrf5x::gpio::PORT[30],
         ],
-        4 * 30);
+        4 * 17);
 
     let gpio = static_init!(
         capsules::gpio::GPIO<'static, nrf5x::gpio::GPIOPin>,
