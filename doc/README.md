@@ -11,7 +11,7 @@ Tock Guides
 ### Overview and Design of Tock
 - **[Overview](Overview.md)** - Overview of the OS and this repository.
 - **[Design](Design.md)** - Design of the Tock primitives that make safety and security possible.
-
+- **[Networking Stack](Networking_Stack.md)** - Design of the networking stack in Tock.
 
 ### Tock Implementation
 - **[Lifetimes](Lifetimes.md)** - How Rust lifetimes are used in Tock.
@@ -31,6 +31,10 @@ are specified.
 ### Tock Setup and Usage
 - **[Getting Started](Getting_Started.md)** - Installing the Tock toolchain and programming hardware.
 - **[Porting Tock](Porting.md)** - Guide to add new platforms.
+- **[Out of Tree Boards](OutOfTree.md)** - Best practices for maintaining boards not in Tock master
+
+### Management of Tock
+- **[Code Review Process](CodeReview.md)** - Process for pull request reviews and Tock releases.
 
 ### Tutorials and Courses
 - **[Quick Tutorials](tutorials)** - Specific tutorials that walk through features of Tock.
