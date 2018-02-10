@@ -18,9 +18,9 @@ target/$(TARGET)/release/microbit-$(APP): target/$(TARGET)/release/microbit apps
 target/$(TARGET)/release/microbit-$(APP).hex: target/$(TARGET)/release/microbit-$(APP)
 	@$(OBJCOPY) -Oihex $^ $@
 
-#JLINK=JLinkExe
-#JLINK_OPTIONS+=-device nrf51422 -if swd -speed 1200 -AutoConnect 1
-#JLINK_SCRIPTS_DIR=jtag/
+JLINK=JLinkExe
+JLINK_OPTIONS+=-device nRF51822 -if swd -speed 1200 -AutoConnect 1
+JLINK_SCRIPTS_DIR=jtag/
 
 # Upload the kernel over JTAG
 .PHONY: flash

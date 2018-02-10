@@ -1,0 +1,7 @@
+eoe 1
+r
+loadfile target/thumbv6m-none-eabi/release/microbit.hex
+r
+g
+q
+
