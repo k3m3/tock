@@ -3,27 +3,42 @@
 //!
 //! ### Pin configuration
 //! ## Edge connector
-//! * 0 -> (pin 3)
-//! * 1 -> (pin 2)
-//! * 2 -> (pin 1)
-//! * 3 -> (pin 4)
-//! * 4 -> BUTTON0 (pin 5)
-//! * 5 -> (pin 17)
-//! * 6 -> (pin 12)
-//! * 7 -> (pin 11)
-//! * 8 -> (pin 18)
-//! * 9 -> (pin 10)
-//! * 10 -> (pin 6)
-//! * 11 -> BUTTON1 (pin 26)
-//! * 12 -> (pin 20)
-//! * 13 -> SCK (pin 23)
-//! * 14 -> MISO (pin 22)
-//! * 15 -> MOSI (pin 21)
-//! * 16 -> (pin 16)
-//! * 19 -> SCL (pin 0)
-//! * 20 -> SDA (pin 30)
+//!  4 -> P0.00 -> SCL
+//!  5 -> P0.01 -> P2
+//!  6 -> P0.02 -> P1
+//!  7 -> P0.03 -> P0
+//!  8 -> P0.04 -> COL1
+//!  9 -> P0.05 -> COL2
+//! 10 -> P0.06 -> COL3
+//! 11 -> P0.07 -> COL4
+//! 14 -> P0.08 -> COL5
+//! 15 -> P0.09 -> COL6
+//! 16 -> P0.10 -> COL7
+//! 17 -> P0.11 -> COL8
+//! 18 -> P0.12 -> COL9
+//! 19 -> P0.13 -> ROW1
+//! 20 -> P0.14 -> ROW2
+//! 21 -> P0.15 -> ROW3
+//! 22 -> P0.16 -> P0.16
+//! 25 -> P0.17 -> BTN_A
+//! 26 -> P0.18 -> P0.18
+//! 27 -> P0.19 -> NRST
+//! 28 -> P0.20 -> P0.20
+//! 40 -> P0.21 -> MOSI
+//! 41 -> P0.22 -> MISO
+//! 42 -> P0.23 -> SCK
+//! 43 -> P0.24 -> TXD
+//! 44 -> P0.25 -> RXD
+//! 45 -> P0.26 -> BTN_B
+//! 46 -> P0.27 -> ACC INT2
+//! 47 -> P0.28 -> ACC INT1
+//! 48 -> P0.29 -> MAG_INT1
+//!  3 -> P0.30 -> SDA
 //!
 //! ### Authors
+//! * Philip Levis <pal@cs.stanford.edu>
+//! * Anderson Lizardo <anderson.lizardo@gmail.com>
+//! * Florian Hars <florian@hars.de>
 //! * Michael E. Craggs <m.e.craggs@gmail.com>
 //! * Date: December 07, 2017
 
