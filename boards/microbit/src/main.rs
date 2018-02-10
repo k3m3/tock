@@ -126,25 +126,29 @@ pub unsafe fn reset_handler() {
     }
 
     let gpio_pins = static_init!(
-        [&'static nrf5x::gpio::GPIOPin; 17],
+        [&'static nrf5x::gpio::GPIOPin; 21],
         [
-            &nrf5x::gpio::PORT[1],
-            &nrf5x::gpio::PORT[2],
             &nrf5x::gpio::PORT[3],
+            &nrf5x::gpio::PORT[2],
+            &nrf5x::gpio::PORT[1],
             &nrf5x::gpio::PORT[4],
             &nrf5x::gpio::PORT[5],
-            &nrf5x::gpio::PORT[6],
-            &nrf5x::gpio::PORT[7],
-            &nrf5x::gpio::PORT[8],
-            &nrf5x::gpio::PORT[9],
-            &nrf5x::gpio::PORT[10],
-            &nrf5x::gpio::PORT[11],
-            &nrf5x::gpio::PORT[12],
-            &nrf5x::gpio::PORT[13],
-            &nrf5x::gpio::PORT[14],
-            &nrf5x::gpio::PORT[15],
-            &nrf5x::gpio::PORT[16],
             &nrf5x::gpio::PORT[17],
+            &nrf5x::gpio::PORT[12],
+            &nrf5x::gpio::PORT[11],
+            &nrf5x::gpio::PORT[18],
+            &nrf5x::gpio::PORT[10],
+            &nrf5x::gpio::PORT[6],
+            &nrf5x::gpio::PORT[26],
+            &nrf5x::gpio::PORT[20],
+            &nrf5x::gpio::PORT[23],
+            &nrf5x::gpio::PORT[22],
+            &nrf5x::gpio::PORT[21],
+            &nrf5x::gpio::PORT[16],
+            &nrf5x::gpio::PORT[16],
+            &nrf5x::gpio::PORT[16],
+            &nrf5x::gpio::PORT[0],
+            &nrf5x::gpio::PORT[30],
         ]
     );
 
